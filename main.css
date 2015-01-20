@@ -2,16 +2,23 @@ html {
 	background: #859952;
 }
 
-.box_1 {
-	padding: 20px;
-	display: inline;
-}
-
-.box_2 {
-	padding: 20px;
-	display: inline;
-}
-
 .boxes {
-	display: inline;
+	display: inline-block;
+	border: 2px solid navy;
 }
+
+.boxes .box_1 {
+	padding: 20px;
+	display: inline-block;
+	border: 2px solid maroon;
+	margin: 2px;
+}
+
+.boxes .box_2 {
+	padding: 20px;
+	display: inline-block;
+	border: 2px solid maroon;
+	margin: 2px;
+}
+
+
